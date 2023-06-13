@@ -1,0 +1,46 @@
+#heroImage{
+    background-image: url("./static/images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 100vh;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+@font-face {
+    font-family: primaryFont;
+    src: url(./static/fonts/FontsFree-Net-Luxia-Display-1.ttf) format("truetype");
+}
+.exceptionalFont {
+    font-family: primaryFont;
+}
+
+.background {
+    background-image: url("./static/images/background.png");
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    width: 100%;
+}
+#whoWeAreImage {
+    background-image: url("./static/images-whoweare/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 45vh;
+}
+#portfolioImage {
+    background-image: url("./static/images/fifth.jpeg");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 45vh;
+}
+
+#contactusImage {
+    background-image: url("./static/images/second.jpeg");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 45vh;
+}

@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+      <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main>
+      <!-- this is green header portion -->
+      <div class="bg-[#084c3f]">
+        <div class="max-w-screen-sm mx-auto">
+          <nav class="py-4">
+            <ul class="list-none flex justify-around">
+              <li>
+                <div
+                  class="bg-white w-7 h-7 rounded-full text-xl flex justify-center items-center"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="bg-white w-7 h-7 rounded-full text-xl flex justify-center items-center"
+                >
+                  <i class="fa-brands fa-whatsapp"></i>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="bg-white w-7 h-7 rounded-full flex justify-center items-center"
+                >
+                  <i class="fa-brands fa-facebook-f"></i>
+                </div>
+              </li>
+              <li>
+                <div
+                  class="bg-white w-7 h-7 rounded-full flex justify-center items-center"
+                >
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+              </li>
+              <li class="flex gap-3 items-center">
+                <div
+                  class="bg-white w-7 h-7 rounded-full flex justify-center items-center"
+                >
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <p class="text-white exceptionalFont">info@allayiq.com</p>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- hero image background class -->
+      <div id="heroImage" class="relative bg-cover md:bg-[100%]">
+        <div class="bg-[#191A19]/30 h-full w-full">
+          <!-- main Navigation portion -->
+          <div class="bg-[#191A19]/70 w-full">
+            <div class="max-w-screen-xl lg:mx-auto mx-4 ml-5">
+              <div class="flex justify-between h-[60px] lg:h-[60px] ml-5">
+                <div class="h-full w-[200px] lg:w-[150px] ml-5">
+                  <img
+                    src="./static/images/logo.png"
+                    alt="logo"
+                    class="object-contain h-full w-full ml-5 pl-5"
+                  />
+                </div>
+                <div class="lg:hidden flex items-center">
+                  <div class="relative">
+                    <div class="text-3xl text-white">
+                      <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <input
+                      type="checkbox"
+                      name="option"
+                      id="option1"
+                      class="lg:hidden h-8 absolute top-0 left-0 right-0 bottom-0 opacity-0 w-8 peer"
+                    />
+                    <div
+                      class="top-[100%] transition-all duration-500 fixed peer-checked:top-[50%] bg-black/90 z-10 bottom-0 left-0 right-0 text-white text-lg lg:text-xl h-full uppercase"
+                    >
+                      <div class="flex flex-col justify-center items-center py-10 space-y-7 cursor-pointer">
+                        <div
+                          class="hover:bg-gray-700/30 flex items-center duration-300 px-5"
+                        >
+                          Home
+                        </div>
+                        <div
+                          class="hover:bg-gray-700/30 flex items-center duration-300 px-5"
+                        >
+                          Who we are
+                        </div>
+                        <div
+                          class="hover:bg-gray-700/30 flex items-center duration-300 px-5"
+                        >
+                          What we do
+                        </div>
+                        <div
+                          class="hover:bg-gray-700/30 flex items-center duration-300 px-5"
+                        >
+                          Portfolio
+                        </div>
+                        <div
+                          class="hover:bg-gray-700/30 flex items-center duration-300 px-5"
+                        >
+                          Contact Us
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="hidden lg:block text-white text-lg lg:text-xl h-full uppercase mr-5"
+                >
+                  <div class="flex h-full cursor-pointer">
+                    <div
+                      class="hover:bg-[#191A19]/60 h-full flex items-center duration-300 px-0 mr-5 text-sm gap-1"
+                    >
+                      Home
+                    </div>
+                    <div
+                      class="hover:bg-[#191A19]/60 h-full flex items-center duration-300 px-5 text-sm"
+                    >
+                      <a class="no-underline" href="whoweare.html">Who we are</a>
+                    </div>
+                    <div
+                      class="hover:bg-[#191A19]/60 h-full flex items-center duration-300 px-5 text-sm"
+                    >
+                      What we do
+                    </div>
+                    <div
+                      class="hover:bg-[#191A19]/60 h-full flex items-center duration-300 px-5 text-sm"
+                    >
+                      Portfolio
+                    </div>
+                    <div
+                      class="hover:bg-[#191A19]/60 h-full flex items-center duration-300 px-5 text-sm"
+                    >
+                      Contact Us
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Main Hero title portion -->
+          <div
+            class="w-full mx-4 md:mx-0 h-[70%] flex items-center justify-center"
+          >
+            <h1
+              class="uppercase text-xl md:text-3xl text-center tracking-wide exceptionalFont text-white drop-shadow-[0_10px_20px_rgb(0,0,0)]"
+            >
+              Premium Interior & Exterior <br />
+              Design Company In Abhudhabi
+            </h1>
+          </div>
+          <!-- Bottomsection of main hero page -->
+          <div class="max-w-screen-xl lg:mx-auto mx-4">
+            <div
+              class="flex justify-center md:justify-between items-center h-32"
+            >
+              <div class="hidden md:block">
+                <button
+                  class="bg-[#084c3f] px-4 h-10 shadow-[0_2px_4px_rgb(56_65_74_/_20%)] text-white flex items-center justify-center gap-2 rounded-lg text-lg ml-5 pl-5"
+                >
+                  Call Now
+                  <span class="text-white">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                  </span>
+                </button>
+              </div>
+              <div class="border-y-2 capitalize text-center border-[#8ac540]">
+                <p
+                  class="text-center text-base md:text-xl py-4 text-white font-[500] drop-shadow-[0_10px_20px_rgb(0,0,0)]"
+                >
+                  6 Month Free Labour Maintenance <br />
+                  Without Material
+                </p>
+              </div>
+              <div class="p-5">
+                <div
+                class="hidden h-20 w-20 rounded-full bg-[#5ABB50] md:flex justify-center items-center"
+              >
+                <p class="text-white text-5xl">
+                  <i class="fa-brands fa-whatsapp"></i>
+                </p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- background class -->
+      <div class="background">
+        <!-- second Section of Home Page -->
+        <section class="bg-slate-50/80 px-10">
+          <div
+            class="lg:flex gap-5 max-w-screen-xl lg:mx-auto mx-4 py-10 md:py-20"
+          >
+            <div class="relative flex lg:w-[50%]">
+              <div
+                class="bg-[#084c3f]/90 h-[450px] md:h-[650px] w-[200px]"
+              ></div>
+              <div class="relative w-full h-full">
+                <h2
+                  class="m-3 uppercase text-xl md:text-2xl text-[#8ac540] font-[800]"
+                >
+                  Welcome
+                </h2>
+                <div
+                  class="absolute -left-14 md:w-[450px] h-[350px] md:h-[500px]"
+                >
+                  <img
+                    src="./static/images/living-room.jpg"
+                    alt="img"
+                    class="object-cover h-full w-full"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="text-stone-500 w-full lg:w-[50%] mt-[50px] md:mt-[100px]"
+            >
+              <h3 class="text-lg md:text-xl font-[600] tracking-wide">
+                Convert Your Dream space Into Reality with Al Layiq
+              </h3>
+              <p class="mt-7 text-lg font-medium text-justify">
+                Welcome to Al layiq, Al Layiq uses modern elements to create
+                attractive spaces. Al Layiq has been one of the top inte- rior
+                designers and contractors in UAE to realize all your dream
+                projects. we believe that a great design is never with- out its
+                challenges. Viewing these challenges as opportuni- ties to
+                create something unique and timeless is what sets us apart from
+                others. That’s why we proudly recognize ourselves as the best
+                Interior and exterior design company in Abu Dhabi
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Four card section  -->
+        <section class="bg-slate-50/80 px-6">
+          <div
+            class="max-w-screen-xl md:mx-auto px-4 space-y-2 md:space-y-0 md:grid md:grid-cols-2 lg:flex justify-between w-full gap-7"
+          >
+            <div
+              class="w-full bg-[#8ac540]/40 text-[#084c3f] text-sm md:text-base flex justify-center items-center font-semibold uppercase h-20 md:h-24 rounded-xl"
+            >
+              Affordable Prices
+            </div>
+            <div
+              class="w-full bg-[#084c3f]/40 text-white text-sm md:text-base flex justify-center items-center font-semibold uppercase h-20 md:h-24 rounded-xl"
+            >
+              Quality Work
+            </div>
+            <div
+              class="w-full bg-[#8ac540]/40 text-[#084c3f] text-sm md:text-base flex justify-center items-center font-semibold uppercase h-20 md:h-24 rounded-xl"
+            >
+              Client Friendly
+            </div>
+            <div
+              class="w-full bg-[#084c3f]/40 text-white text-sm md:text-base flex justify-center items-center font-semibold uppercase h-20 md:h-24 rounded-xl"
+            >
+              Dedicated Team
+            </div>
+          </div>
+        </section>
+        <!-- What we do section  -->
+        <section class="bg-gray-50/80 px-10">
+          <div class="max-w-screen-xl md:mx-auto mx-4 py-10 md:py-20">
+            <h1
+              class="uppercase font-[800] text-xl md:text-2xl text-[#8ac540]"
+            >
+              What We Do
+            </h1>
+            <!-- grid starts here -->
+            <div class="md:grid space-y-4 grid-cols-2 gap-10 mt-10">
+              <!-- first -->
+              <div class="w-full bg-[#e6e7e9]">
+                <div class="flex h-[200px] md:h-[300px]">
+                  <div class="image-container h-full w-[50%]">
+                    <img
+                      src="./static//images/first.jpeg"
+                      alt="img"
+                      class="object-cover h-full w-full"
+                    />
+                  </div>
+                  <div class="w-[50%] flex flex-col justify-center">
+                    <h4
+                      class="text-[#084c3f] uppercase text-base lg:text-xl font-medium p-5"
+                    >
+                      Fit Out <br />
+                      Works
+                    </h4>
+                    <div
+                      class="bg-[#8ac540] flex justify-end items-center gap-2"
+                    >
+                      <p class="text-white text-xs md:text-sm p-1 pr-5">
+                        Read More
+                        <span class="">
+                          <i class="fa-solid fa-arrow-right-long"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- second -->
+              <div class="w-full bg-[#e6e7e9]">
+                <div class="flex h-[200px] md:h-[300px]">
+                  <div class="image-container h-full w-[50%]">
+                    <img
+                      src="./static//images/second.jpeg"
+                      alt="img"
+                      class="object-cover h-full w-full"
+                    />
+                  </div>
+                  <div class="w-[50%] flex flex-col justify-center">
+                    <h4
+                      class="text-[#084c3f] uppercase text-base lg:text-xl font-medium p-5"
+                    >
+                      Design <br />
+                      Services
+                    </h4>
+                    <div
+                      class="bg-[#8ac540] flex justify-end items-center gap-2"
+                    >
+                      <p class="text-white text-xs md:text-sm p-1 pr-5">
+                        Read More
+                        <span class="">
+                          <i class="fa-solid fa-arrow-right-long"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Thrid -->
+              <div class="w-full bg-[#e6e7e9]">
+                <div class="flex h-[200px] md:h-[300px]">
+                  <div class="image-container h-full w-[50%]">
+                    <img
+                      src="./static//images/third.jpeg"
+                      alt="img"
+                      class="object-cover h-full w-full"
+                    />
+                  </div>
+                  <div class="w-[50%] flex flex-col justify-center">
+                    <h4
+                      class="text-[#084c3f] uppercase text-base lg:text-xl font-medium p-5"
+                    >
+                      Acoustic & <br />
+                      Non Acoustic <br />
+                      Glass Partitions
+                    </h4>
+                    <div
+                      class="bg-[#8ac540] flex justify-end items-center gap-2"
+                    >
+                      <p class="text-white text-xs md:text-sm pr-5">
+                        Read More
+                        <span class="">
+                          <i class="fa-solid fa-arrow-right-long"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Fourth -->
+              <div class="w-full bg-[#e6e7e9]">
+                <div class="flex h-[200px] md:h-[300px]">
+                  <div class="image-container h-full w-[50%]">
+                    <img
+                      src="./static//images/fourth.jpeg"
+                      alt="img"
+                      class="object-cover h-full w-full"
+                    />
+                  </div>
+                  <div class="w-[50%] flex flex-col justify-center">
+                    <h4
+                      class="text-[#084c3f] uppercase text-base lg:text-xl font-medium p-5"
+                    >
+                      Aluminium And<br />
+                      Glass Works
+                    </h4>
+                    <div
+                      class="bg-[#8ac540] flex justify-end items-center gap-2"
+                    >
+                      <p class="text-white text-xs md:text-sm pr-5">
+                        Read More
+                        <span class="">
+                          <i class="fa-solid fa-arrow-right-long"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Fifth -->
+              <div class="w-full bg-[#e6e7e9]">
+                <div class="flex h-[200px] md:h-[300px]">
+                  <div class="image-container h-full w-[50%]">
+                    <img
+                      src="./static//images/fifth.jpeg"
+                      alt="img"
+                      class="object-cover h-full w-full"
+                    />
+                  </div>
+                  <div class="w-[50%] flex flex-col justify-center">
+                    <h4
+                      class="text-[#084c3f] uppercase text-base lg:text-xl sm:text-xs font-medium p-5"
+                    >
+                      Interior <br />
+                      Construction
+                    </h4>
+                    <div
+                      class="bg-[#8ac540] flex justify-end items-center gap-2"
+                    >
+                      <p class="text-white text-xs md:text-sm pr-5">
+                        Read More
+                        <span class="">
+                          <i class="fa-solid fa-arrow-right-long"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- sixth -->
+              <div class="w-full bg-[#e6e7e9]">
+                <div class="flex h-[200px] md:h-[300px]">
+                  <div class="image-container h-full w-[50%]">
+                    <img
+                      src="./static//images/sixth.jpeg"
+                      alt="img"
+                      class="object-cover h-full w-full"
+                    />
+                  </div>
+                  <div class="w-[50%] flex flex-col justify-center">
+                    <h4
+                      class="text-[#084c3f] uppercase text-base lg:text-xl font-medium p-5"
+                    >
+                      Electrical & <br />
+                      Plumping Works
+                    </h4>
+                    <div
+                      class="bg-[#8ac540] flex justify-end items-center gap-2"
+                    >
+                      <p class="text-white text-xs md:text-sm pr-5">
+                        Read More
+                        <span class="">
+                          <i class="fa-solid fa-arrow-right-long"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Seventh -->
+              <div class="w-full bg-[#e6e7e9]">
+                <div class="flex h-[200px] md:h-[300px]">
+                  <div class="image-container h-full w-[50%]">
+                    <img
+                      src="./static//images/seventh.jpeg"
+                      alt="img"
+                      class="object-cover h-full w-full"
+                    />
+                  </div>
+                  <div class="w-[50%] flex flex-col justify-center">
+                    <h4
+                      class="text-[#084c3f] uppercase text-base lg:text-xl font-medium p-5"
+                    >
+                      Contract<br />
+                      Services
+                    </h4>
+                    <div
+                      class="bg-[#8ac540] flex justify-end items-center gap-2"
+                    >
+                      <p class="text-white text-xs md:text-sm pr-5">
+                        Read More
+                        <span class="">
+                          <i class="fa-solid fa-arrow-right-long"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Eighth -->
+              <div class="w-full bg-[#e6e7e9]">
+                <div class="flex h-[200px] md:h-[300px]">
+                  <div class="image-container h-full w-[50%]">
+                    <img
+                      src="./static//images/eighth.jpeg"
+                      alt="img"
+                      class="object-cover h-full w-full"
+                    />
+                  </div>
+                  <div class="w-[50%] flex flex-col justify-center">
+                    <h4
+                      class="text-[#084c3f] uppercase text-base lg:text-xl font-medium p-5"
+                    >
+                      Maintenance<br />
+                      Services
+                    </h4>
+                    <div
+                      class="bg-[#8ac540] flex justify-end items-center gap-2"
+                    >
+                      <p class="text-white text-xs md:text-sm pr-5">
+                        Read More
+                        <span class="">
+                          <i class="fa-solid fa-arrow-right-long"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Nineth -->
+              <div class="w-full bg-[#e6e7e9]">
+                <div class="flex h-[200px] md:h-[300px]">
+                  <div class="image-container h-full w-[50%]">
+                    <img
+                      src="./static//images/nineth.jpeg"
+                      alt="img"
+                      class="object-cover h-full w-full"
+                    />
+                  </div>
+                  <div class="w-[50%] flex flex-col justify-center">
+                    <h4
+                      class="text-[#084c3f] uppercase text-base lg:text-xl font-medium p-5"
+                    >
+                      Stainless <br />
+                      Steel Works
+                    </h4>
+                    <div
+                      class="bg-[#8ac540] flex justify-end items-center gap-2"
+                    >
+                      <p class="text-white text-xs md:text-sm pr-5">
+                        Read More
+                        <span class="">
+                          <i class="fa-solid fa-arrow-right-long"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tenth -->
+              <div class="w-full bg-[#e6e7e9]">
+                <div class="flex h-[200px] md:h-[300px]">
+                  <div class="image-container h-full w-[50%]">
+                    <img
+                      src="./static//images/tenth.jpeg"
+                      alt="img"
+                      class="object-cover h-full w-full"
+                    />
+                  </div>
+                  <div class="w-[50%] flex flex-col justify-center">
+                    <h4
+                      class="text-[#084c3f] uppercase text-base lg:text-xl font-medium p-5"
+                    >
+                      Advertising<br />
+                      Services
+                    </h4>
+                    <div
+                      class="bg-[#8ac540] flex justify-end items-center gap-2"
+                    >
+                      <p class="text-white text-xs md:text-sm pr-5">
+                        Read More
+                        <span class="">
+                          <i class="fa-solid fa-arrow-right-long"></i>
+                        </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- openion section -->
+        <section class="bg-gray-50/80 px-10">
+          <div class="max-w-screen-xl mx-auto md:pt-0 pb-10">
+            <div class="bg-[#e6e7e9] rounded">
+              <div class="md:flex">
+                <div
+                  class="md:w-[35%] w-full md:block flex justify-center items-center p-5 md:p-20"
+                >
+                  <div
+                    class="overflow-hidden h-[100px] w-[100px] md:h-[200px] md:w-[200px] rounded-full border-8 text-5xl md:text-9xl text-stone-500 border-stone-500 flex justify-center items-center"
+                  >
+                    <i class="fa-solid fa-user"></i>
+                  </div>
+                </div>
+                <div class="md:w-[65%] w-full">
+                  <div class="space-y-7 md:py-20 pb-10 md:pb-0 px-10">
+                    <h3 class="text-[#084c3f] text-xl md:text-3xl font-medium">
+                      What our Client Say
+                    </h3>
+                    <p class="text-stone-500 text-lg font-medium text-justify">
+                      I absolutely loved the work. I would deﬁnitely recommend
+                      Al layiq to anyone. They are very pro- fessional and made
+                      the entire experience amazing. The best part is that they
+                      clearly understood our requirements and budget.
+                    </p>
+                    <p class="text-lg text-stone-500 font-medium">
+                      - Shafeeque
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- banner card -->
+      <section class="bg-[#c4e29f]">
+        <div
+          class="lg:flex max-w-screen-xl md:mx-auto px-4 space-y-2 lg:space-y-0 justify-between py-10"
+        >
+          <h3 class="exceptionalFont text-[#084c3f] text-lg md:text-xl pl-10">
+            Lets Go With Quality And Affordable Prices For Your Project
+          </h3>
+          <div class="pr-10">
+            <button
+            class="uppercase bg-[#8ac540] px-4 h-10 text-base text-white rounded-lg font-[700]"
+          >
+            Get Started
+          </button>
+          </div>
+        </div>
+      </section>
+      <!-- footer section -->
+      <section class="bg-[#084c3f] px-10">
+        <div class="max-w-screen-xl md:mx-auto mx-4 p-4">
+          <!-- first -->
+          <div
+            class="flex flex-col space-y-8 lg:space-y-0 lg:flex-row justify-between items-center py-10"
+          >
+            <div class="logo w-[160px] md:w-[250px]">
+              <img
+                src="./static/images/logo.png"
+                alt="logo"
+                class="w-full h-full object-contain"
+              />
+            </div>
+            <!-- second -->
+            <div class="space-y-3">
+              <p class="flex gap-2 items-center">
+                <span
+                  class="bg-white h-8 w-8 rounded-full flex justify-center items-center"
+                >
+                  <i class="fa-solid fa-location-dot"></i>
+                </span>
+                <span class="text-white font-medium"
+                  >Mussafah, Shabiya 11 <br />
+                  Abu dhabi, UAE</span
+                >
+              </p>
+              <p class="flex gap-2 items-center">
+                <span
+                  class="bg-white h-8 w-8 rounded-full flex justify-center items-center"
+                >
+                  <i class="fa-solid fa-envelope"></i>
+                </span>
+                <span class="text-white font-medium">info@allayiq.com</span>
+              </p>
+              <p class="flex gap-2 items-center">
+                <span
+                  class="bg-white h-8 w-8 rounded-full flex justify-center items-center"
+                >
+                  <i class="fa-solid fa-mobile-screen"></i>
+                </span>
+                <span class="text-white font-medium">
+                  Booking Now <br />+971 56 99 77 370
+                </span>
+              </p>
+              <ul class="list-none flex gap-5">
+                <li>
+                  <div
+                    class="bg-white w-7 h-7 rounded-full text-xl flex justify-center items-center"
+                  >
+                    <i class="fa-brands fa-instagram"></i>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="bg-white w-7 h-7 rounded-full text-xl flex justify-center items-center"
+                  >
+                    <i class="fa-brands fa-whatsapp"></i>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="bg-white w-7 h-7 rounded-full flex justify-center items-center"
+                  >
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </div>
+                </li>
+                <li>
+                  <div
+                    class="bg-white w-7 h-7 rounded-full flex justify-center items-center"
+                  >
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- third -->
+            <div class="">
+              <ul
+                class="list-none lg:space-y-4 grid grid-cols-2 gap-5 lg:block"
+              >
+                <li
+                  class="flex gap-2 items-center md:text-lg text-white uppercase"
+                >
+                  <p class="">
+                    <i class="fa-solid fa-caret-right"></i>
+                  </p>
+                  <p class="">Home</p>
+                </li>
+                <li
+                  class="flex gap-2 items-center md:text-lg text-white uppercase"
+                >
+                  <p class="">
+                    <i class="fa-solid fa-caret-right"></i>
+                  </p>
+                  <p class="">What we are</p>
+                </li>
+                <li
+                  class="flex gap-2 items-center md:text-lg text-white uppercase"
+                >
+                  <p class="">
+                    <i class="fa-solid fa-caret-right"></i>
+                  </p>
+                  <p class="">What we do</p>
+                </li>
+                <li
+                  class="flex gap-2 items-center md:text-lg text-white uppercase"
+                >
+                  <p class="">
+                    <i class="fa-solid fa-caret-right"></i>
+                  </p>
+                  <p class="">Portfolio</p>
+                </li>
+                <li
+                  class="flex gap-2 items-center md:text-lg text-white uppercase"
+                >
+                  <p class="">
+                    <i class="fa-solid fa-caret-right"></i>
+                  </p>
+                  <p class="">Contact Us</p>
+                </li>
+              </ul>
+            </div>
+            <!-- fourth -->
+            <div class="lg:w-[30%]">
+              <p class="text-xl text-white uppercase font-[700] tracking-wide">
+                NEWSLETTER
+              </p>
+              <div class="flex items-center h-14 pt-3">
+                <input
+                  placeholder="Enter your e-mail"
+                  class="px-2 placeholder:text-black placeholder:text-center h-full w-full outline-none bg-white"
+                  type="text"
+                />
+                <button class="h-full w-[300px] bg-[#c4e29f] font-[700]">
+                  Submit
+                </button>
+              </div>
+              <button
+                class="w-full h-10 bg-[#8ac540] uppercase flex gap-2 items-center justify-center text-white text-xl font-[500] mt-5"
+              >
+                <span class="">
+                  <i class="fa-solid fa-download"></i>
+                </span>
+                <span class="">Download Brochure</span>
+              </button>
+            </div>
+          </div>
+          <hr />
+          <div class="py-10">
+            <p class="text-lg text-white text-center">
+              Al Layiq. All rights reserved designed by ametzo technologies
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
