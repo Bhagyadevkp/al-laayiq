@@ -49,10 +49,5 @@ body {
     background-image: url("./static/images/third.jpeg");
     background-repeat: no-repeat;
     background-position: top;
-    height: 65vh;
-}
-
-.background-div {
-    background-color: #084c3f;
-    opacity: 0.5;
+    height: 85vh;
 }
